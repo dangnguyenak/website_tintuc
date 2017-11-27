@@ -1,0 +1,13 @@
+RewriteEngine on
+RewriteBase /news2
+RewriteRule ^index.html index.php
+RewriteRule ^xem-(.*)-(.*).html view.php?title=$1&id=$2
+RewriteRule ^danh-muc-(.*)-(.*).html category.php?title=$1&id=$2
+RewriteRule ^tim-kiem.html timkiem.php
+RewriteRule ^myinfo.html myinfo.php
+RewriteRule ^mypost.html mypost.php
+RewriteRule ^post.html post.php
+RewriteRule ^tac-gia-(.*).html tacgia.php?username=$1
+RewriteRule ^404.html index.php
+ErrorDocument 404 /404.html 
+

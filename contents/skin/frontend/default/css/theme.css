@@ -1,0 +1,538 @@
+﻿.adkai-default.adkai {
+    display: none;
+    font-family: tahoma, arial, verdana !important;
+    font-size: 13px;
+    word-wrap: break-word;
+    color: #666;
+    background: #fff;
+    line-height: 16px;
+    text-align: left
+}
+
+.adkai-default .adkai-widget a {
+    text-decoration: none;
+    color: #3B5998;
+}
+
+    .adkai-default .adkai-widget a:hover {
+        text-decoration: underline;
+    }
+
+.adkai-default .adkai-widget .adkai-item {
+    transition: all linear 0.25s;
+    -ms-transition: all linear 0.25s;
+    -moz-transition: all linear 0.25s;
+    -webkit-transition: all linear 0.25s;
+    -o-transition: all linear 0.25s;
+}
+
+    .adkai-default .adkai-widget .adkai-item img {
+        border: none;
+    }
+
+
+
+.adkai-default .adkai-widget {
+    position: relative;
+    overflow: hidden;
+}
+
+.adkai-default .adkai-widget-list {
+    box-shadow: 0px 0px 2px #222;
+    -moz-box-shadow: 0px 0px 2px #222;
+    -webkit-box-shadow: 0px 0px 2px #222;
+    -khtml-box-shadow: 0px 0px 2px #222;
+}
+
+.adkai-default .adkai-item:hover {
+    background-color: #f6f6f6;
+}
+
+.adkai-default .adkai-ad-by {
+    position: absolute;
+    right: 7px;
+    top: 5px;
+    line-height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+    .adkai-default .adkai-ad-by .adkai-txt {
+        display: none;
+        float: left;
+        padding: 0 5px;
+    }
+
+    .adkai-default .adkai-ad-by .adkai-copy {
+        float: left;
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+    }
+
+    .adkai-default .adkai-ad-by:hover {
+        background: #4169E1;
+    }
+
+        .adkai-default .adkai-ad-by:hover span {
+            display: block;
+            color: #fff;
+        }
+
+        .adkai-default .adkai-ad-by:hover b {
+            /*display: none;*/
+            background-position: bottom center;
+            background-color: #333;
+        }
+
+
+.adkai-default .adkai-domain {
+    padding: 3px 0 8px 0;
+}
+
+    .adkai-default .adkai-domain a {
+        color: #888;
+        font-weight: normal;
+    }
+
+.adkai-default .adkai-title a {
+    font-weight: bold;
+}
+
+.adkai-default .adkai-item p {
+    margin: 0;
+    padding: 0;
+}
+
+.adkai-default .adkai-item .adkai-item-wrapper {
+    padding: 5px;
+    border-bottom: dashed 1px #ccc;
+}
+
+.adkai-default .adkai-item:last-child .adkai-item-wrapper {
+    border-bottom-color: transparent;
+}
+
+
+.adkai-clearfix:before,
+.adkai-clearfix:after {
+    display: table;
+    content: " ";
+}
+
+.adkai-clearfix:after {
+    clear: both;
+}
+
+.adkai-default .adkai-desc {
+    color: #444;
+    padding: 0;
+    overflow: hidden;
+    text-align: justify;
+    font-size: 12px;
+}
+
+    .adkai-default .adkai-desc img {
+        float: left;
+        margin-right: 9px;
+        display: block;
+        width: 90px;
+        height: 90px;
+    }
+
+
+.adkai-default.adkai-sz-300x600 {
+    width: 300px;
+}
+
+.adkai-default .adkai-item-banner {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+
+}
+
+/*-----------------710x180---------------------*/
+
+.adkai-default.adkai-sz-710x180 {
+    width: 710px;
+}
+
+    .adkai-default.adkai-sz-710x180 .adkai-item {
+        float: left;
+        width: 33.33333%;
+    }
+
+    .adkai-default.adkai-sz-710x180 .adkai-item-wrapper {
+        padding: 25px 5px 8px 5px;
+        height: 150px !important;
+        border-style: none;
+        border-right: dashed 1px #ccc;
+    }
+
+    .adkai-default.adkai-sz-710x180 .adkai-item:last-child .adkai-item-wrapper {
+        border-right-color: transparent;
+    }
+
+
+/*-----------------200x200---------------------*/
+.adkai-default.adkai-sz-200x200 {
+    width: 200px;
+}
+
+    .adkai-default.adkai-sz-200x200 .adkai-item img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        vertical-align: central;
+    }
+
+
+/*-----------------160x300---------------------*/
+.adkai-default.adkai-sz-160x300 {
+    width: 160px;
+}
+
+    .adkai-default.adkai-sz-160x300 .adkai-item img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        vertical-align: central;
+    }
+
+    .adkai-default.adkai-sz-160x300 .adkai-item-wrapper {
+        border-style: none;
+        border-bottom: dashed 1px #ccc;
+        height: 210px !important;
+    }
+
+
+    .adkai-default.adkai-sz-160x300 .adkai-item:first-child .adkai-item-wrapper {
+        border-bottom-color: transparent;
+    }
+
+    .adkai-default.adkai-sz-160x300 .adkai-item:first-child .adkai-title {
+        padding-right: 30px;
+    }
+
+
+
+/*-----------------160x600---------------------*/
+.adkai-default.adkai-sz-160x600 {
+    width: 160px;
+}
+
+    .adkai-default.adkai-sz-160x600 .adkai-item img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        vertical-align: central;
+    }
+
+
+    .adkai-default.adkai-sz-160x600 .adkai-item-wrapper {
+        border-style: none;
+        border-bottom: dashed 1px #ccc;
+        height: 210px !important;
+    }
+
+    .adkai-default.adkai-sz-160x600 .adkai-item:first-child .adkai-item-wrapper {
+        border-bottom-color: transparent;
+    }
+
+    .adkai-default.adkai-sz-160x600 .adkai-item:first-child .adkai-title {
+        padding-right: 30px;
+    }
+
+
+
+
+/*-----------------200x400---------------------*/
+.adkai-default.adkai-sz-200x400 {
+    width: 200px;
+}
+
+    .adkai-default.adkai-sz-200x400 .adkai-item img {
+        float: none;
+        display: block;
+        margin: 3px auto;
+        vertical-align: central;
+    }
+
+
+    .adkai-default.adkai-sz-200x400 .adkai-item .adkai-item-wrapper {
+        height: 200px !important;
+    }
+
+
+    .adkai-default.adkai-sz-200x400 .adkai-item:first-child .adkai-title {
+        padding-right: 30px;
+    }
+
+
+
+/*-----------------230x230---------------------*/
+.adkai-default.adkai-sz-230x230 {
+    width: 230px;
+}
+
+    .adkai-default.adkai-sz-230x230 .adkai-item img {
+        width: 80px;
+        height: 80px;
+    }
+
+
+
+/*-----------------230x600---------------------*/
+.adkai-default.adkai-sz-230x540 {
+    width: 230px;
+}
+
+
+
+/*-----------------240x400---------------------*/
+.adkai-default.adkai-sz-240x400 {
+    width: 240px;
+}
+
+    .adkai-default.adkai-sz-240x400 .adkai-item img {
+        width: 80px;
+        height: 80px;
+    }
+
+
+
+
+
+/*-----------------300x400---------------------*/
+.adkai-default.adkai-sz-300x400 {
+    width: 300px;
+}
+
+    .adkai-default.adkai-sz-300x400 .adkai-item img {
+        width: 80px;
+        height: 80px;
+    }
+
+
+
+
+/*-----------------320x250---------------------*/
+.adkai-default.adkai-sz-320x250 {
+    width: 320px;
+}
+
+    .adkai-default.adkai-sz-320x250 .adkai-item img {
+        width: 70px;
+        height: 70px;
+    }
+
+
+
+/*-----------------300x250---------------------*/
+.adkai-default.adkai-sz-300x250 {
+    width: 300px;
+}
+
+    .adkai-default.adkai-sz-300x250 .adkai-item img {
+        width: 70px;
+        height: 70px;
+    }
+
+
+
+/*-----------------250x250---------------------*/
+.adkai-default.adkai-sz-250x250 {
+    width: 250px;
+}
+
+    .adkai-default.adkai-sz-250x250 .adkai-item img {
+        width: 70px;
+        height: 70px;
+    }
+
+
+
+/*-----------------336x280---------------------*/
+.adkai-default.adkai-sz-336x280 {
+    width: 336px;
+}
+
+
+/*-----------------300x100---------------------*/
+.adkai-default.adkai-sz-300x100 {
+    width: 300px;
+}
+
+    .adkai-default.adkai-sz-300x100 .adkai-item img {
+        width: 70px;
+        height: 70px;
+    }
+
+
+
+
+/*-----------------468x160---------------------*/
+.adkai-default.adkai-sz-468x160 {
+    width: 468px;
+}
+
+    .adkai-default.adkai-sz-468x160 .adkai-item {
+        float: left;
+        width: 50%;
+    }
+
+        .adkai-default.adkai-sz-468x160 .adkai-item img {
+            width: 80px;
+            height: 80px;
+        }
+
+    .adkai-default.adkai-sz-468x160 .adkai-item-wrapper {
+        border-style: none;
+        border-right: dashed 1px #ccc;
+    }
+
+    .adkai-default.adkai-sz-468x160 .adkai-item:last-child .adkai-item-wrapper {
+        border-right-style: none;
+    }
+/*-----------------720x300---------------------*/
+.adkai-default.adkai-sz-720x300 {
+    width: 720px;
+}
+
+    .adkai-default.adkai-sz-720x300 .adkai-item {
+        float: left;
+        width: 50%;
+    }
+
+
+        .adkai-default.adkai-sz-720x300 .adkai-item .adkai-item-wrapper {
+            border-right: dashed 1px #ccc;
+        }
+
+
+        .adkai-default.adkai-sz-720x300 .adkai-item:nth-child(3) .adkai-item-wrapper {
+            border-right-style: none;
+        }
+
+
+        .adkai-default.adkai-sz-720x300 .adkai-item:nth-child(4) .adkai-item-wrapper {
+            border-bottom-style: none;
+        }
+
+
+        .adkai-default.adkai-sz-720x300 .adkai-item:last-child .adkai-item-wrapper {
+            border-bottom-style: none;
+            border-right-style: none;
+        }
+
+
+
+/*-----------------980x180---------------------*/
+
+.adkai-default.adkai-sz-980x180 {
+    width: 980px;
+}
+
+    .adkai-default.adkai-sz-980x180 .adkai-item {
+        float: left;
+        width: 25%;
+    }
+
+    .adkai-default.adkai-sz-980x180 .adkai-item-wrapper {
+        padding: 25px 5px 8px 5px;
+        height: 150px !important;
+        border-style: none;
+        border-right: dashed 1px #ccc;
+    }
+
+    .adkai-default.adkai-sz-980x180 .adkai-item:last-child .adkai-item-wrapper {
+        border-right-color: transparent;
+    }
+
+
+/*-----------------980x120---------------------*/
+
+.adkai-default.adkai-sz-980x120 {
+    width: 980px;
+}
+
+    .adkai-default.adkai-sz-980x120 .adkai-item {
+        float: left;
+        width: 33.3333%;
+    }
+
+        .adkai-default.adkai-sz-980x120 .adkai-item img {
+            width: 65px;
+            height: 65px;
+        }
+
+    .adkai-default.adkai-sz-980x120 .adkai-item-wrapper {
+        height: 110px !important;
+        border-style: none;
+        border-right: dashed 1px #ccc;
+    }
+
+    .adkai-default.adkai-sz-980x120 .adkai-item:last-child .adkai-item-wrapper {
+        border-right-color: transparent;
+    }
+
+
+
+/*-----------------990x160---------------------*/
+
+.adkai-default.adkai-sz-990x160 {
+    width: 990px;
+}
+
+    .adkai-default.adkai-sz-990x160 .adkai-item {
+        float: left;
+        width: 25%;
+    }
+
+    .adkai-default.adkai-sz-990x160 .adkai-item-wrapper {
+        height: 150px !important;
+        border-style: none;
+        border-right: dashed 1px #ccc;
+    }
+
+    .adkai-default.adkai-sz-990x160 .adkai-item:last-child .adkai-item-wrapper {
+        border-right-color: transparent;
+    }
+
+
+
+
+/*-----------------990x300---------------------*/
+
+.adkai-default.adkai-sz-990x300 {
+    width: 990px;
+}
+
+    .adkai-default.adkai-sz-990x300 .adkai-item {
+        float: left;
+        width: 25%;
+    }
+
+        .adkai-default.adkai-sz-990x300 .adkai-item img {
+            width: 70px;
+            height: 70px;
+        }
+
+    .adkai-default.adkai-sz-990x300 .adkai-item-wrapper {
+        height: 120px !important;
+        border-style: none;
+        border-right: dashed 1px #ccc;
+    }
+
+    .adkai-default.adkai-sz-990x300 .adkai-item:last-child .adkai-item-wrapper {
+        border-right-color: transparent;
+    }
+
+     .adkai-default.adkai-sz-990x300 .adkai-item:nth-child(5) .adkai-item-wrapper {
+        border-right-color: transparent;
+    }

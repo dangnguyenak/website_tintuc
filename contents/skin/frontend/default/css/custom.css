@@ -1,0 +1,56 @@
+.comment-info {
+    border: solid 1px #00f;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.listcomments {
+    font-size: 14px;
+}
+
+.date-cmt {text-align: right;font-weight: 700;}
+
+.user {
+    float: left;
+    font-weight: 300;
+    color: #EB5946;
+}
+
+.comment_content {
+    margin-top: 5px;
+}
+
+.comments > p {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: -webkit-pictograph;
+}
+.comment-input{
+    border: 1px solid #EB5946;
+    font-family: inherit;
+    font-size: 18px;
+    height: 20px;
+    margin: 0;
+    padding: 4px 58px 4px 10px;
+    right: 0;
+    top: 0;
+    width: 500px;
+    z-index: 10;
+}
+
+.btn {
+    padding: 5px;
+    background: steelblue;
+}
+
+
+.send-comment {
+    border: dashed 1px #00f;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.head-send-comment {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
